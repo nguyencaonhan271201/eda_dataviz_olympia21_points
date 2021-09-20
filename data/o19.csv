@@ -1,0 +1,209 @@
+,Tên,Trường,Tỉnh thành,Khởi động,VCNV,Tăng tốc,Về đích,Tổng điểm,Tuần,Tháng,Quý
+0,Cấn Thái Hoàng,THPT Thạch Thất,Hà Nội,60,50,160,20,290,1,1,1
+1,Vũ Thành Vinh,THPT Hữu Lũng,Lạng Sơn,50,0,80,0,130,1,1,1
+2,Lê Đức Thành,THPT Nguyễn Thị Minh Khai,Hà Tĩnh,80,0,70,-20,130,1,1,1
+3,Đinh Đoàn Xuân Phương,THPT Chuyên Võ Nguyên Giáp,Quảng Bình,80,0,20,30,130,1,1,1
+4,Bùi Hậu Giang,THPT Chuyên Lê Quý Đôn,Đà Nẵng,60,90,120,60,330,2,1,1
+5,Đào Mạnh Tuyên,THPT Phương Sơn,Bắc Giang,40,10,110,50,210,2,1,1
+6,Tạ Thị Duyên,THPT Lê Hồng Phong,Quảng Bình,40,10,90,-10,130,2,1,1
+7,Ngô Quốc Anh,THPT Gia Viễn A,Ninh Bình,70,0,80,-45,105,2,1,1
+8,Nguyễn Hoàng Minh,THPT Trần Phú - Hoàn Kiếm,Hà Nội,90,80,110,130,410,3,1,1
+9,Nguyễn Hoàng Ngọc Hà,THPT Chuyên Nguyễn Chí Thanh,Đắk Nông,70,10,100,90,270,3,1,1
+10,Trần Thị Phương Thảo,THPT Trần Hưng Đạo,Nam Định,50,10,60,-10,110,3,1,1
+11,Nguyễn Đình Tuấn Dũng,THPT Thái Hoà,Nghệ An,90,10,70,-50,120,3,1,1
+12,Cấn Thái Hoàng,THPT Thạch Thất,Hà Nội,80,0,90,0,170,X,1,1
+13,Nguyễn Hoàng Ngọc Hà,THPT Chuyên Nguyễn Chí Thanh,Đắk Nông,50,0,40,-25,65,X,1,1
+14,Bùi Hậu Giang,THPT Chuyên Lê Quý Đôn,Đà Nẵng,80,10,140,-30,200,X,1,1
+15,Nguyễn Hoàng Minh,THPT Trần Phú - Hoàn Kiếm,Hà Nội,40,70,120,80,310,X,1,1
+16,Hồ Viết Nguyên Khang,THPT Bùi Thị Xuân,Lâm Đồng,60,10,100,10,180,1,2,1
+17,Thái Huyền,THPT Nhơn Trạch,Đồng Nai,80,70,60,20,230,1,2,1
+18,Đậu Thị Vân Anh,THPT Quỳ Hợp 2,Nghệ An,40,0,50,-50,40,1,2,1
+19,Hà Công Chánh,THPT Chuyên Lê Hồng Phong,TP. Hồ Chí Minh,80,0,50,130,260,1,2,1
+20,Mai Nữ Song Ngân,THPT Hùng Vương,Bình Thuận,40,10,110,80,240,2,2,1
+21,Nguyễn Hằng Thu,THPT Lương Phú,Thái Nguyên,80,0,50,20,150,2,2,1
+22,Vũ Đình Minh,THPT Nguyễn Thượng Hiền,TP. Hồ Chí Minh,40,20,100,-10,150,2,2,1
+23,Trần Thế Trung,THPT Chuyên Phan Bội Châu,Nghệ An,90,60,80,75,305,2,2,1
+24,Nguyễn Duy Đạt,THPT Trần Quốc Toản,Đắk Lắk,40,0,110,110,260,3,2,1
+25,Nguyễn Đức Mạnh,THPT Hương Khê,Hà Tĩnh,50,10,120,-20,160,3,2,1
+26,Trần Công Lập,THPT Lý Tự Trọng,Nam Định,100,80,80,30,290,3,2,1
+27,Quách Minh Đức,THPT Chuyên Lương Thế Vinh,Đồng Nai,60,0,90,100,250,3,2,1
+28,Hà Công Chánh,THPT Chuyên Lê Hồng Phong,TP. Hồ Chí Minh,80,0,30,5,115,X,2,1
+29,Trần Thế Trung,THPT Chuyên Phan Bội Châu,Nghệ An,60,40,70,110,280,X,2,1
+30,Nguyễn Duy Đạt,THPT Trần Quốc Toản,Đắk Lắk,70,0,80,-25,125,X,2,1
+31,Trần Công Lập,THPT Lý Tự Trọng,Nam Định,50,0,90,-75,65,X,2,1
+32,Thái Nguyễn Quốc Đạt,THPT Trần Hưng Đạo,Đắk Nông,100,0,70,25,195,1,3,1
+33,Nguyễn Tố Thi,THPT Chuyên Chu Văn An,Lạng Sơn,40,10,60,20,130,1,3,1
+34,Nguyễn Đức Triết,THPT Núi Thành,Quảng Nam,50,10,130,45,235,1,3,1
+35,Ninh Thành Vinh,THPT Tây Thụy Anh,Thái Bình,100,90,100,30,320,1,3,1
+36,Trần Nhật Minh,THPT Mạc Đĩnh Chi,TP. Hồ Chí Minh,40,0,40,-25,55,2,3,1
+37,Ngô Ngọc Long,THPT Phạm Hồng Thái,Hà Nội,30,0,50,-10,70,2,3,1
+38,Lê Đức Đạt,THPT Chuyên Lương Văn Chánh,Phú Yên,40,80,100,15,235,2,3,1
+39,Phạm Hải Bình,THPT Kiến An,Hải Phòng,90,10,150,15,265,2,3,1
+40,Nguyễn Quốc Khánh Lân,THPT Lý Tự Trọng,Khánh Hoà,80,10,40,30,160,3,3,1
+41,Tạ Nhật Linh,THPT Chuyên Nguyễn Thị Minh Khai,Sóc Trăng,50,90,120,20,280,3,3,1
+42,Phạm Thị Cẩm Ly,THPT Lê Hữu Trác,Hà Tĩnh,50,0,50,-10,90,3,3,1
+43,Nguyễn Hoàng Dương,THCS & THPT Nguyễn Tất Thành,Hà Nội,80,0,130,30,240,3,3,1
+44,Nguyễn Hoàng Dương,THCS & THPT Nguyễn Tất Thành,Hà Nội,50,80,30,15,175,X,3,1
+45,Tạ Nhật Linh,THPT Chuyên Nguyễn Thị Minh Khai,Sóc Trăng,40,0,30,100,170,X,3,1
+46,Ninh Thành Vinh,THPT Tây Thụy Anh,Thái Bình,60,0,120,45,225,X,3,1
+47,Phạm Hải Bình,THPT Kiến An,Hải Phòng,60,10,100,-20,150,X,3,1
+48,Ninh Thành Vinh,THPT Tây Thụy Anh,Thái Bình,60,10,40,-85,25,X,X,1
+49,Nguyễn Hoàng Minh,THPT Trần Phú - Hoàn Kiếm,Hà Nội,60,70,70,35,235,X,X,1
+50,Trần Thế Trung,THPT Chuyên Phan Bội Châu,Nghệ An,100,10,50,80,240,X,X,1
+51,Bùi Hậu Giang,THPT Chuyên Lê Quý Đôn,Đà Nẵng,60,10,50,-35,85,X,X,1
+52,Nguyễn Hoàng Công Anh,THPT Mỹ Hào,Hưng Yên,70,90,80,10,250,1,1,2
+53,Nguyễn Thu Huệ,THPT Đa Phúc,Hà Nội,50,10,110,-25,145,1,1,2
+54,Phan Nguyễn Huy Hoàng,THPT Thị xã Phước Long,Bình Phước,20,10,50,-80,0,1,1,2
+55,Nguyễn Phan Thanh Nhàn,THPT Chuyên Lê Quý Đôn,Ninh Thuận,90,10,110,80,290,1,1,2
+56,Nguyễn Tùng Dương,THPT Bến Tre,Vĩnh Phúc,40,0,50,30,120,2,1,2
+57,Nguyễn Hoàng Phúc,THPT Huỳnh Văn Nghệ,Bình Dương,40,10,60,-35,75,2,1,2
+58,Hoàng Phan Việt Lâm,THPT Chuyên Bắc Kạn,Bắc Kạn,70,0,60,0,130,2,1,2
+59,Nguyễn Thành Vinh,THPT Quốc Oai,Hà Nội,80,90,110,-20,260,2,1,2
+60,Bùi Ngọc Anh,THCS & THPT Chu Văn An,Quảng Ninh,10,10,20,30,70,3,1,2
+61,Phùng Trọng Nghĩa,THPT Chuyên Thăng Long,Lâm Đồng,70,90,130,50,340,3,1,2
+62,Ngô Quốc Hoà,THPT Châu Văn Liêm,Cần Thơ,60,10,110,-10,170,3,1,2
+63,Khúc Thanh Thảo,THPT Kim Liên,Hà Nội,30,10,40,0,80,3,1,2
+64,Nguyễn Hoàng Công Anh,THPT Mỹ Hào,Hưng Yên,40,0,60,-20,80,X,1,2
+65,Nguyễn Thành Vinh,THPT Quốc Oai,Hà Nội,40,60,100,10,210,X,1,2
+66,Nguyễn Phan Thanh Nhàn,THPT Chuyên Lê Quý Đôn,Ninh Thuận,30,0,40,65,135,X,1,2
+67,Phùng Trọng Nghĩa,THPT Chuyên Thăng Long,Lâm Đồng,50,0,80,100,230,X,1,2
+68,Hoàng Đức Mạnh,THPT Đồ Sơn,Hải Phòng,50,30,110,-35,155,1,2,2
+69,Trần Trung Kiên,THPT Ngọc Hồi,Hà Nội,30,60,90,20,200,1,2,2
+70,Bùi Văn Thành,THPT Nguyễn Thiện Thuật,Hưng Yên,80,30,100,70,280,1,2,2
+71,Bùi Đoàn Khánh Quân,THPT Chuyên Trần Đại Nghĩa,TP. Hồ Chí Minh,70,30,60,45,205,1,2,2
+72,Nguyễn Hải Đăng,THPT Chuyên Lê Quý Đôn,Khánh Hoà,100,10,50,70,230,2,2,2
+73,Vũ Thị Thu Thảo,THPT Yên Mô A,Ninh Bình,30,0,10,-15,25,2,2,2
+74,Nguyễn Lê Gia Thịnh,THPT Chuyên Vị Thanh,Hậu Giang,80,60,160,30,330,2,2,2
+75,Đoàn Lê Ngân,THPT Kim Xuyên,Tuyên Quang,70,20,60,-30,120,2,2,2
+76,Phan Thị Phương Anh,THPT Tây Hiếu,Nghệ An,40,10,100,-65,85,3,2,2
+77,Nguyễn Cao Nguyên,THPT Ea Súp,Đắk Lắk,50,20,110,10,190,3,2,2
+78,Ngô Đặng Thuý Hằng,THPT Xuyên Mộc,Bà Rịa - Vũng Tàu,90,50,60,50,250,3,2,2
+79,Phạm Minh Đức,THPT Chuyên Biên Hoà,Hà Nam,30,20,30,-20,60,3,2,2
+80,Nguyễn Lê Gia Thịnh,THPT Chuyên Vị Thanh,Hậu Giang,70,20,90,0,180,X,2,2
+81,Ngô Đặng Thuý Hằng,THPT Xuyên Mộc,Bà Rịa - Vũng Tàu,40,40,70,50,200,X,2,2
+82,Bùi Văn Thành,THPT Nguyễn Thiện Thuật,Hưng Yên,100,0,70,-5,165,X,2,2
+83,Nguyễn Hải Đăng,THPT Chuyên Lê Quý Đôn,Khánh Hoà,70,20,60,65,215,X,2,2
+84,Ngô Đình Chính,THPT Cửa Tùng,Quảng Trị,60,0,90,60,210,1,3,2
+85,Nguyễn Huyền Trang,THPT Lý Thường Kiệt,Hải Phòng,20,0,20,-45,-5,1,3,2
+86,Giáp Bùi Việt Anh,THPT Lục Ngạn số 1,Bắc Giang,40,10,100,-20,130,1,3,2
+87,Nguyễn Huỳnh Sang,THPT Chuyên Lê Quý Đôn,Bình Định,100,60,110,30,300,1,3,2
+88,Lê Trung Sơn,THPT Chuyên Trần Hưng Đạo,Bình Thuận,70,20,130,75,295,2,3,2
+89,Lại Kinh Châu,THPT Hồ Thị Kỷ,Cà Mau,40,70,80,-5,185,2,3,2
+90,Vũ Như Hoàng Phú,THPT Quỳnh Côi,Thái Bình,80,20,120,40,260,2,3,2
+91,Phạm Thế Vũ,THPT Chu Văn An,Hà Nội,70,20,40,-50,80,2,3,2
+92,Phùng Quang Huy,THPT Hoàng Văn Thụ,Quảng Ninh,70,20,50,-40,100,3,3,2
+93,Ngô Phạm Huỳnh Đạt,THPT Dương Minh Châu,Tây Ninh,50,80,80,15,225,3,3,2
+94,Nguyễn Minh Quy,THPT Ứng Hoà A,Hà Nội,100,20,80,-20,180,3,3,2
+95,Nguyễn Xuân Phương,THPT Chuyên Đại học Vinh,Nghệ An,120,10,110,90,330,3,3,2
+96,Lê Trung Sơn,THPT Chuyên Trần Hưng Đạo,Bình Thuận,50,10,130,-10,180,X,3,2
+97,Vũ Như Hoàng Phú,THPT Quỳnh Côi,Thái Bình,40,20,50,-10,100,X,3,2
+98,Nguyễn Xuân Phương,THPT Chuyên Đại học Vinh,Nghệ An,60,70,100,30,260,X,3,2
+99,Nguyễn Huỳnh Sang,THPT Chuyên Lê Quý Đôn,Bình Định,70,20,100,20,210,X,3,2
+100,Nguyễn Huỳnh Sang,THPT Chuyên Lê Quý Đôn,Bình Định,70,10,120,20,220,X,X,2
+101,Phùng Trọng Nghĩa,THPT Chuyên Thăng Long,Lâm Đồng,30,0,50,-5,75,X,X,2
+102,Nguyễn Xuân Phương,THPT Chuyên Đại học Vinh,Nghệ An,80,50,90,50,270,X,X,2
+103,Nguyễn Hải Đăng,THPT Chuyên Lê Quý Đôn,Khánh Hoà,90,20,110,70,290,X,X,2
+104,Trần Bảo Quốc,THPT số 1 Bảo Yên,Lào Cai,40,80,20,40,180,1,1,3
+105,Phan Lê Hữu Diễn,THPT Đặng Huy Trứ,Thừa Thiên - Huế,30,20,120,50,220,1,1,3
+106,Tô Đức Quang,THPT Chuyên Lương Văn Tụy,Ninh Bình,90,20,110,30,250,1,1,3
+107,Đàm Tuấn Quỳnh,"THPT Chuyên Khoa học Tự nhiên, ĐHQG Hà Nội",Hà Nội,70,20,100,35,225,1,1,3
+108,Nguyễn Công Thành,THPT Phan Chu Trinh,Đà Nẵng,70,10,30,35,145,2,1,3
+109,Vũ Ngọc Linh,THPT Chuyên Trần Phú,Hải Phòng,60,10,40,-50,60,2,1,3
+110,Vũ Ngọc Linh,THPT Đông Sơn 1,Thanh Hoá,70,80,120,40,310,2,1,3
+111,Nguyễn Phạm Kiên Trung,THPT Chuyên Hùng Vương,Bình Dương,70,20,50,-85,55,2,1,3
+112,Chu Đức Huy,THPT Sóc Sơn,Hà Nội,90,90,150,50,380,3,1,3
+113,Phạm Huệ Anh,THPT Ea H'Leo,Đắk Lắk,50,10,30,-15,75,3,1,3
+114,Văn Thành An,THPT Chuyên Lê Thánh Tông - Hội An,Quảng Nam,40,10,100,-10,140,3,1,3
+115,Phạm Ngọc Mai,THPT Kinh Môn,Hải Dương,70,10,90,0,170,3,1,3
+116,Chu Đức Huy,THPT Sóc Sơn,Hà Nội,20,10,150,10,190,X,1,3
+117,Đàm Tuấn Quỳnh,"THPT Chuyên Khoa học Tự nhiên, ĐHQG Hà Nội",Hà Nội,20,20,70,20,130,X,1,3
+118,Vũ Ngọc Linh,THPT Đông Sơn 1,Thanh Hoá,60,20,60,0,140,X,1,3
+119,Tô Đức Quang,THPT Chuyên Lương Văn Tụy,Ninh Bình,60,50,110,-10,210,X,1,3
+120,Ngô Đức Quốc Khánh,THPT Nguyễn Trường Tộ - Hưng Nguyên,Nghệ An,60,80,50,0,190,1,2,3
+121,Hoàng Xuân Thanh,THPT Lạng Giang số 1,Bắc Giang,70,0,70,35,175,1,2,3
+122,Nguyễn Đức Tín,THPT Chuyên Bến Tre,Bến Tre,70,0,50,-30,90,1,2,3
+123,Nguyễn Đại Nghĩa,"PT Năng khiếu, ĐHQG TP. Hồ Chí Minh",TP. Hồ Chí Minh,90,10,110,50,260,1,2,3
+124,Nguyễn Văn Lộc,THPT Chuyên Lê Quý Đôn,Bà Rịa - Vũng Tàu,90,90,30,0,210,2,2,3
+125,Vũ Văn Thành,THPT Điềm Thụy,Thái Nguyên,100,10,100,40,250,2,2,3
+126,Vũ Ngọc Hậu,THPT Chuyên Nguyễn Tất Thành,Kon Tum,70,0,80,30,180,2,2,3
+127,Quách Thành Vũ,THPT Ngọc Lặc,Thanh Hoá,60,10,20,100,190,2,2,3
+128,Huỳnh Nhựt Khoa,THPT Duy Tân,Phú Yên,30,0,10,-50,-10,3,2,3
+129,Nguyễn Bá Vinh,THPT Chuyên Lý Tự Trọng,Cần Thơ,90,80,110,180,460,3,2,3
+130,Hoàng Thanh Tùng,THPT Cao Bá Quát - Gia Lâm,Hà Nội,70,10,70,-10,140,3,2,3
+131,Chu Đức Trung,THPT Dương Quảng Hàm,Hưng Yên,50,0,20,10,80,3,2,3
+132,Vũ Văn Thành,THPT Điềm Thụy,Thái Nguyên,40,0,60,-55,45,X,2,3
+133,Nguyễn Đại Nghĩa,"PT Năng khiếu, ĐHQG TP. Hồ Chí Minh",TP. Hồ Chí Minh,50,0,80,85,215,X,2,3
+134,Nguyễn Văn Lộc,THPT Chuyên Lê Quý Đôn,Bà Rịa - Vũng Tàu,60,10,30,70,170,X,2,3
+135,Nguyễn Bá Vinh,THPT Chuyên Lý Tự Trọng,Cần Thơ,80,70,160,10,320,X,2,3
+136,Trần Trung Hiếu,THPT Chuyên Đại học Sư phạm Hà Nội,Hà Nội,40,40,150,30,260,1,3,3
+137,Nguyễn Đức Long,THPT Văn Giang,Hưng Yên,50,10,30,-60,30,1,3,3
+138,Nguyễn Đỗ Anh Thư,THPT Hậu Nghĩa,Long An,30,10,90,-10,120,1,3,3
+139,Bùi Thị Hoàng Giang,THPT Chuyên Lê Quý Đôn,Quảng Trị,70,10,50,55,185,1,3,3
+140,Lê Vương Khánh,THPT Nhân Chính,Hà Nội,90,10,30,50,180,2,3,3
+141,Nguyễn Trần Khánh Hiền,THPT Lê Trung Kiên,Phú Yên,60,20,140,20,240,2,3,3
+142,Huỳnh Thị Nhật Thương,THPT Chuyên Lê Khiết,Quảng Ngãi,110,20,40,-10,160,2,3,3
+143,Lê Văn Chiến,THPT Yên Khánh A,Ninh Bình,110,70,60,40,280,2,3,3
+144,Nguyễn Ngọc Nguyên Phương,THPT Nguyễn Thái Bình,Quảng Nam,10,10,60,0,80,3,3,3
+145,Vương Thị Anh Đào,THPT Trương Định,Tiền Giang,70,0,60,20,150,3,3,3
+146,Vũ Minh Dũng,THPT Trần Nguyên Hãn,Hải Phòng,70,10,110,-20,170,3,3,3
+147,Nguyễn Trọng Khải,THPT Chuyên Nguyễn Huệ,Hà Nội,60,60,120,30,270,3,3,3
+148,Trần Trung Hiếu,THPT Chuyên Đại học Sư phạm Hà Nội,Hà Nội,60,60,40,25,185,X,3,3
+149,Nguyễn Trần Khánh Hiền,THPT Lê Trung Kiên,Phú Yên,30,0,70,0,100,X,3,3
+150,Nguyễn Trọng Khải,THPT Chuyên Nguyễn Huệ,Hà Nội,60,0,110,70,240,X,3,3
+151,Lê Văn Chiến,THPT Yên Khánh A,Ninh Bình,80,0,80,10,170,X,3,3
+152,Nguyễn Đại Nghĩa,"PT Năng khiếu, ĐHQG TP. Hồ Chí Minh",TP. Hồ Chí Minh,60,10,100,70,240,X,X,3
+153,Nguyễn Bá Vinh,THPT Chuyên Lý Tự Trọng,Cần Thơ,70,60,110,20,260,X,X,3
+154,Nguyễn Trọng Khải,THPT Chuyên Nguyễn Huệ,Hà Nội,80,10,60,-55,95,X,X,3
+155,Tô Đức Quang,THPT Chuyên Lương Văn Tụy,Ninh Bình,20,10,30,-10,50,X,X,3
+156,Nguyễn Bảo Anh,THPT Yên Hoà,Hà Nội,70,30,120,-10,210,1,1,4
+157,Nguyễn Bảo Khánh,THPT Lê Quý Đôn,Quảng Bình,80,20,90,50,240,1,1,4
+158,Đoàn Nam Thắng,THPT Chuyên Nguyễn Du,Đắk Lắk,70,40,70,70,250,1,1,4
+159,Nguyễn Văn Đức,THCS & THPT Hai Bà Trưng,Vĩnh Phúc,40,20,40,-60,40,1,1,4
+160,Đinh Thị Phương Nhâm,THPT Hoa Lư A,Ninh Bình,50,10,60,70,190,2,1,4
+161,Nguyễn Thị Lan Hương,THPT Trần Phú,Quảng Ninh,60,10,10,-55,25,2,1,4
+162,Nay Đinh Nhật Vỹ,THPT Chuyên Hùng Vương,Gia Lai,80,90,100,65,335,2,1,4
+163,Đàm Lê Tuấn Kiệt,THPT Chuyên Lam Sơn,Thanh Hoá,100,10,110,25,245,2,1,4
+164,Nguyễn Đức Hiếu,THPT Chuyên Thái Bình,Thái Bình,80,80,130,0,290,3,1,4
+165,Thân Đoàn Thuận,THCS & THPT Đinh Thiện Lý,TP. Hồ Chí Minh,70,0,60,-20,110,3,1,4
+166,Lê Đinh Thái Sơn,THPT Chí Linh,Hải Dương,90,0,90,15,195,3,1,4
+167,Phạm Thành Đạt,THPT Chuyên Quốc học,Thừa Thiên - Huế,90,0,120,35,245,3,1,4
+168,Đàm Lê Tuấn Kiệt,THPT Chuyên Lam Sơn,Thanh Hoá,90,30,100,30,250,X,1,4
+169,Đoàn Nam Thắng,THPT Chuyên Nguyễn Du,Đắk Lắk,80,40,140,40,300,X,1,4
+170,Nay Đinh Nhật Vỹ,THPT Chuyên Hùng Vương,Gia Lai,70,0,80,70,220,X,1,4
+171,Nguyễn Đức Hiếu,THPT Chuyên Thái Bình,Thái Bình,60,20,70,110,260,X,1,4
+172,Nguyễn Gia Khánh,THPT Nguyễn Chí Thanh,An Giang,60,0,40,40,140,1,2,4
+173,Huỳnh Thị Phương Duyên,THPT Chuyên Long An,Long An,70,0,40,-30,80,1,2,4
+174,Nguyễn Ngọc Tín,THPT Vũ Tiên,Thái Bình,100,80,140,20,340,1,2,4
+175,Vũ Công Minh,THPT Quang Trung,Hải Dương,90,10,120,30,250,1,2,4
+176,Đặng Đăng Khánh,THPT Chuyên Hoàng Lê Kha,Tây Ninh,50,10,110,120,290,2,2,4
+177,Nguyễn Thuỳ Dương,Trường Hữu Nghị T78,Hà Nội,60,10,50,-20,100,2,2,4
+178,Phạm Nguyên Vũ,THPT Chuyên Hà Tĩnh,Hà Tĩnh,60,90,60,-20,190,2,2,4
+179,Phan Ngọc Phương Thanh,THPT Nguyễn Văn Trỗi,Khánh Hoà,40,0,50,-10,80,2,2,4
+180,Nguyễn Thanh Mạnh Quân,THPT Nguyễn Gia Thiều,Hà Nội,60,10,10,-20,60,3,2,4
+181,Hoàng Lan Anh,THPT Chuyên Cao Bằng,Cao Bằng,70,70,60,30,230,3,2,4
+182,Nguyễn Phúc Luân,THPT Triệu Phong,Quảng Trị,40,10,120,55,225,3,2,4
+183,Nguyễn Trần Lê Na,THPT Đức Linh,Bình Thuận,40,10,110,-10,150,3,2,4
+184,Hoàng Lan Anh,THPT Chuyên Cao Bằng,Cao Bằng,40,10,100,-15,135,X,2,4
+185,Nguyễn Ngọc Tín,THPT Vũ Tiên,Thái Bình,60,10,40,-65,45,X,2,4
+186,Đặng Đăng Khánh,THPT Chuyên Hoàng Lê Kha,Tây Ninh,40,10,60,95,205,X,2,4
+187,Vũ Công Minh,THPT Quang Trung,Hải Dương,80,80,130,40,330,X,2,4
+188,Nguyễn Thị Linh,THPT Phú Bình,Thái Nguyên,20,30,40,20,110,1,3,4
+189,Võ Thành Trung,THPT Chuyên Tiền Giang,Tiền Giang,80,70,130,120,400,1,3,4
+190,Nguyễn Thị Châu Anh,THPT Tiểu La,Quảng Nam,60,20,80,-30,130,1,3,4
+191,Vũ Duy Bách,THPT Sáng Sơn,Vĩnh Phúc,40,10,120,10,180,1,3,4
+192,Trần Văn Thắng,THPT Mê Linh,Hà Nội,70,0,90,-20,140,2,3,4
+193,Nguyễn Thảo My,THPT Chuyên Sơn La,Sơn La,80,20,100,-20,180,2,3,4
+194,Khưu Minh Khoa,THPT Bùi Thị Xuân,TP. Hồ Chí Minh,100,10,100,90,300,2,3,4
+195,Nguyễn Thị Bình,THPT Đô Lương 3,Nghệ An,80,20,0,-25,75,2,3,4
+196,Lại Quốc Trung,THPT Đông Thành,Quảng Ninh,70,60,60,5,195,3,3,4
+197,Trần Lệ Mỹ,THPT Yên Lập,Phú Thọ,50,20,80,40,190,3,3,4
+198,Nguyễn Hoà Kim Thái,THPT Dầu Tiếng,Bình Dương,70,20,60,40,190,3,3,4
+199,Bùi Trung Kiên,THPT Trần Phú,Lâm Đồng,60,10,60,-35,95,3,3,4
+200,Khưu Minh Khoa,THPT Bùi Thị Xuân,TP. Hồ Chí Minh,30,70,100,30,230,X,3,4
+201,Võ Thành Trung,THPT Chuyên Tiền Giang,Tiền Giang,70,10,110,-40,150,X,3,4
+202,Lại Quốc Trung,THPT Đông Thành,Quảng Ninh,60,10,70,45,185,X,3,4
+203,Trần Lệ Mỹ,THPT Yên Lập,Phú Thọ,30,10,40,-70,10,X,3,4
+204,Nguyễn Đức Hiếu,THPT Chuyên Thái Bình,Thái Bình,40,10,50,-55,45,X,X,4
+205,Đoàn Nam Thắng,THPT Chuyên Nguyễn Du,Đắk Lắk,40,70,70,30,210,X,X,4
+206,Vũ Công Minh,THPT Quang Trung,Hải Dương,40,10,90,20,160,X,X,4
+207,Khưu Minh Khoa,THPT Bùi Thị Xuân,TP. Hồ Chí Minh,40,10,70,60,180,X,X,4

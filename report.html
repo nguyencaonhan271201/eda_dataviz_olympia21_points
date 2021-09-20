@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Dữ liệu điểm thi Tốt nghiệp THPT 2021 của TP.HCM nói lên điều gì?</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./images/ncn.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <div class="container">
+        <div class="title">
+            <h1 class="display-5 text-center text-uppercase ">Phân tích dữ liệu điểm thi Đường lên đỉnh Olympia năm thứ 21</h1>
+            <h5 class="font-italic text-right mt-4">Nguyễn Cao Nhân</h5>
+        </div>
+        
+        <div class="subtitle mt-4">
+            <h5 class="subtitle-text"> 
+                52 trận đấu của Đường lên đỉnh Olympia năm thứ 21 đã kết thúc và trước thềm Chung kết năm, mình muốn phân tích và trực quan
+                hoá một số đặc điểm có thể chỉ ra được từ dữ liệu điểm thi của 52 trận đấu đã qua. Bài viết sử dụng dữ liệu điểm số được crawl
+                từ Wikipedia để thực hành và rèn luyện kỹ năng EDA và DataViz của bản thân cũng như tìm ra một số điểm thú vị trong dữ liệu có được.
+            </h5>
+        </div>
+
+        <div class="paragraph">
+            <h2>I. PHỔ ĐIỂM NÓI CHUNG</h2>
+            <p>
+                Với những thay đổi dần trong luật chơi từ Olympia 19 đến Olympia 21, những thay đổi trong phân bố điểm số của mặt bằng chung các trận đấu
+                có thể quan sát được trong biểu đồ bên dưới.
+            </p>
+            <div class="row">
+                <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/hist21.jpg">
+                    <p class="img-cap">Phổ tổng điểm của 52 trận đấu Olympia 21</p>
+                </div>
+            </div>         
+            <p>
+                Nhìn chung, điểm của các thí sinh tập trung chủ yếu ở vùng từ 200 đến 250 điểm với trên 45/208 tổng điểm ghi nhận được. Điểm trung bình
+                đạt 197.52 điểm và điểm trung vị (là giá trị trung tâm phân tách dữ liệu thành 2 vùng) đạt 207.5 điểm. Để có thể có góc nhìn toàn diện hơn,
+                biểu đồ bên dưới sẽ thử so sánh phổ điểm của Olympia 21 với 2 năm trước đó.
+            </p>
+            <div class="row">
+                <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/hist1921.jpg">
+                    <p class="img-cap">So sánh phổ điểm Olympia 19 - 21</p>
+                </div>
+            </div>  
+            <p>
+                Có thể thấy, so sánh với phổ điểm của 2 năm gần nhất, phổ điểm của Olympia 21 có sự khác biệt tương đối. Nhóm điểm phổ biển nhất thay đổi từ
+                vùng 150 - 200 của 2 năm trước lên vùng 200 - 250, giải thích được lý do vì sao điểm bình quân của Olympia 21 cao hơn gần 10 điểm so với Olympia 20
+                và gần 15 điểm so với Olympia 21.
+            </p>
+            <div class="row">
+                <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/box19-21.jpg">
+                    <p class="img-cap">Phân bố vùng tổng điểm Olympia 19 - 21</p>
+                </div>
+            </div>  
+            <p>
+                Nhìn chung, vùng tổng điểm của Olympia 19 - 21 tuy có nhiều thay đổi trong luật thi song không thay đổi quá nhiều khi có độ
+                dàn trải tương đối từ thấp đến cao. Olympia 20 có xu hướng co cụm vào vùng điểm trung tâm (50 - 400) nhiều hơn 2 năm còn lại.
+                Tuy ghi nhận nhiều kỷ lục mới được tạo nên song tổng điểm của Olympia 21 lại không ghi nhận được "giá trị ngoại lệ" như vùng
+                tổng điểm của Olympia 19.
+            </p>
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 offset-sm-0 text-center">
+                    <img alt="" src="images/o21.gif">
+                    <p class="img-cap">Thay đổi phổ điểm Olympia 21 theo từng trận đấu</p>
+                </div>
+            </div>  
+            <p class="font-italic">
+                Chú thích: Để đảm bảo tính tương đương trong thống kê, dữ liệu Olympia 19 và Olympia 20 được sử dụng đều chỉ bao gồm 52 trận đấu
+                kéo dài trong cả 4 quý, không bao gồm dữ liệu điểm trận Chung kết năm.
+            </p>
+        </div>
+
+        <div class="paragraph">
+            <h2>II. SO SÁNH GIỮA CÁC VÒNG THI</h2>
+            <p>
+                Mỗi trận đấu đều trải qua 4 vòng thi với thời lượng tương đương nhau, song tỉ trọng trung bình của từng vòng thi đóng góp vào
+                tổng điểm của trận đấu lại không đều. Biểu đồ bên dưới cho thấy điểm trung bình của từng vòng thi trong 52 trận của Olympia 21.
+            </p>
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/avground.jpg">
+                    <p class="img-cap">So sánh trung bình điểm các vòng thi ở Olympia 21</p>
+                </div>
+            </div>
+            <p>
+                Với tối đa 160 điểm có thể đạt được, vòng thi Tăng tốc ở năm thứ 21 vẫn là vòng thi "dễ kiếm điểm nhất" khi trung bình mang về
+                cho các thí sinh đến trên 80 điểm trong mỗi trận đấu. Giá trị này cao hơn rất nhiều so với vòng thi có thể mang đến nhiều điểm nhất
+                "theo lý thuyết", vòng thi Về đích với điểm số trung bình đạt được là dưới 20 điểm. Để có cái nhìn tương đối hơn, biểu đồ tiếp theo
+                sẽ biểu thị tỉ trọng đóng góp vào tổng điểm (theo từng trận đấu) của mỗi vòng thi.
+            </p> 
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/percentageround.jpg">
+                    <p class="img-cap">So sánh trung bình điểm các vòng thi ở Olympia 21</p>
+                </div>
+            </div>
+            <p>
+                Khởi động và Tăng tốc là các vòng thi đóng góp đến gần 90% điểm số của thí sinh trong từng trận đấu. Trong đó Vượt chướng ngại vật
+                đóng góp trung bình trên 10% tổng điểm của mỗi trận. Điểm đáng ngạc nhiên là vòng thi Về đích lại có xu hướng giảm điểm tổng khi tỉ lệ
+                đóng góp bình quân trong tổng điểm của các trận lại ở mức xấp xỉ -3%.
+            </p>
+            <div class="row">
+                <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/box21.jpg">
+                    <p class="img-cap">Phân bố vùng điểm theo từng vòng thi Olympia 21</p>
+                </div>
+            </div>
+            <p>
+                Phân bố vùng điểm theo từng vòng thi cho thấy một sự chênh lệch. Khi 3 vòng thi đầu với số điểm không có hệ số âm có xu hướng
+                trải rộng tương đối đều, song vùng điểm của vòng thi Về đích lại trải rộng từ vùng âm đến vùng dương ở mức tối đa thấp hơn
+                2 vòng thi Khởi động và Tăng tốc. Vùng điểm Về đích trải rộng nhất chứng tỏ vòng thi này có nhiều tính chất thú vị, có thể
+                là cơ hội để vươn lên đáng kể nhưng cũng có thể là gánh nặng vào quỹ điểm có được từ 3 vòng thi trước.
+            </p>
+            <div class="row text-center">
+                <div class="col-md-6 offset-md-0 col-sm-12">
+                    <img alt="" src="images/avground1921.jpg">
+                </div>
+                <div class="col-md-6 offset-md-0 col-sm-12">
+                    <img alt="" src="images/percentageround1921.jpg">
+                </div>
+                <p class="img-cap">So sánh điểm theo từng vòng giữa các năm Olympia 19 - 21</p>
+            </div> 
+            <p>
+                Phân bố về điểm trung bình giữa các vòng thi có sự tương đồng qua từng năm. Olympia 20 không ghi nhận hiệu quả rõ rệt của việc
+                chuyển từ 12 câu Khởi động thành không giới hạn khi bình quân điểm Khởi động của cả năm lại thấp hơn Olympia 19, song Olympia 21
+                với nhiều kỷ lục được ghi nhận lại ghi nhận một sự tăng rõ rệt ở điểm trung bình vòng thi này.
+            </p>
+            <p>
+                Ở tất cả các năm, vòng thi Về đích có tính chất quyết định nhưng lại đóng góp một tỉ trọng tương đối khiêm tốn trong tổng điểm thí sinh
+                có được. Tuy nhiên, năm thứ Olympia 21 là năm duy nhất ghi nhận một tỉ lệ âm, dù điểm trung bình của vòng thi này tại Olympia 21 xấp xỉ Olympia 20
+                và cao hơn Olympia 19. Điều này có thể giải thích do sự tăng cao tỉ lệ đóng góp điểm của 3 vòng thi đầu, thí sinh có xu hướng ghi nhiều
+                điểm hơn vào quỹ điểm khi bước vào vòng thi Về đích. Chi tiết về những điểm thú vị của vòng thi Về đích ở năm thứ 21 sẽ được trình bày bên sau.
+            </p>
+        </div>
+
+        <div class="paragraph">
+            <h2>III. SO SÁNH GIỮA CÁC QUÝ</h2>
+            
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/quarter_avg21.jpg">
+                    <p class="img-cap">Điểm trung bình theo từng Quý Olympia 21</p>
+                </div>
+            </div>
+            <p>
+                Một trong những đặc điểm của Olympia là mặt bằng điểm số giữa các Quý thường ghi nhận những sự chênh lệch nhất định chứ không
+                đều giữa các quý. Với khoảng chênh tuyệt đối không quá lớn (khoảng 20 điểm giữa Quý 1 và Quý 4) nhưng có thể nhận thấy điểm trung
+                bình của các trận đấu có xu hướng tăng từ Quý đầu đến Quý cuối cùng (đặc biệt là giữa Quý 2 và Quý 3).
+            </p>
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/quarter_avg1921.jpg">
+                    <p class="img-cap">Điểm trung bình theo từng Quý Olympia 19 - 21</p>
+                </div>
+            </div>
+            <p>
+                So sánh với Olympia 19 và 20, có thể thấy Olympia 19 có sự cân bằng giữa các quý tốt hơn khi khoảng chênh điểm số trung bình
+                chỉ là 9.23 điểm (so với 19.42 điểm của Olympia 21 và 23.95 điểm của Olympia 20). Song so sánh giữa 3 năm cho thấy không có sự
+                liên kết rõ ràng nào giữa trung bình các quý và thứ tự quý.
+            </p>
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/quarter21.jpg">
+                    <p class="img-cap">Điểm trung bình vòng thi theo từng Quý 21</p>
+                </div>
+            </div>
+            <p>
+                Dường như mỗi quý có thế mạnh ở một vòng thi khi nhìn vào điểm trung bình theo từng Quý. Quý 1 có bình quân điểm Tăng tốc tương đối
+                thấp so với các quý còn lại (dù 2/6 lần tuyệt đối Tăng tốc được ghi nhận ở Quý 1). Mặt khác, Quý 4 lại có sự chênh lệch rõ ở vòng thi Về đích
+                khi điểm số trung bình là 22.31 điểm, các Quý còn lại đều có điểm trung bình Về đích dưới 20 điểm. Ngoại trừ Khởi động có bình quân cao nhất ở Quý 3
+                (1 kỷ lục 150 điểm Khởi động được ghi nhận ở Quý này), song Quý 4 trên tổng thể đều ghi nhiều điểm hơn ở cả 3 vòng thi còn lại.
+            </p>
+        </div>
+
+        <div class="paragraph">
+            <h2>IV. PHÂN BỐ MẶT BẰNG THÍ SINH THEO TỈNH THÀNH</h2>
+            
+            <div class="row">
+                <div class="col-md-6 offset-md-3 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/Week.jpg">
+                    <p class="img-cap">Phân bố các thí sinh tham dự Olympia 21 theo địa phương</p>
+                </div>
+            </div>
+            
+            <p>
+                Hà Nội tiếp tục là địa phương có nhiều thí sinh tham dự chương trình nhất, với 21 trên tổng số 144 thí sinh tham dự, theo sau là
+                Nghệ An (9 thí sinh) và TP. Hồ Chí Minh (8 thí sinh). Có thể thấy do ảnh hưởng của đợt dịch thứ 4 khiến cho số lượng thí sinh ở
+                khu vực phía Nam tham gia Olympia 21 có xu hướng thấp hơn so với vùng Bắc Bộ và Bắc Trung Bộ, nơi đại dịch ảnh hưởng ít hơn.
+            </p>
+
+            <div class="row text-center">
+                <div class="col-md-6 offset-md-0 col-sm-12">
+                    <img alt="" src="images/Month.jpg">
+                </div>
+                <div class="col-md-6 offset-md-0 col-sm-12">
+                    <img alt="" src="images/Quarter.jpg">
+                </div>
+                
+                <p class="img-cap">Phân bố các thí sinh vào đến vòng Tháng (trái) và vòng Quý (phải) theo địa phương</p>
+            </div>  
+            <p>
+                Tuy mặt bằng tổng thí sinh có xu hướng tập trung nhiều hơn ở phía Bắc nhưng phân bố lượng thí sinh tham gia Tháng và Quý lại có xu hướng
+                đều hơn một chút. Hà Nội là địa phương có nhiều thí sinh lọt vào các vòng thi trong nhất, với 10/48 thí sinh tham gia vòng Tháng 
+                và 5/16 thí sinh tham gia vòng Quý. Tiếp theo là Quảng Ninh, Nghệ An với 2 thí sinh tham gia Quý.
+            </p>
+            <div class="row text-center">
+                <div class="col-md-6 offset-md-3 col-sm-12">
+                    <img alt="" src="images/QuarterRatio.jpg">
+                </div>                
+                <p class="img-cap">Phân bố tỉ lệ thí sinh vào đến vòng Quý theo địa phương</p>
+            </div>
+            <p>
+                Khu vực phía Nam tuy không nhiều thí sinh
+                nhưng nhiều địa phương đạt tỉ lệ thí sinh vào các vòng trong cao (ví dụ Bến Tre chỉ có 1 thí sinh tham gia nhưng vào đến vòng Quý).
+                Hà Nội và Nghệ An đều có nhiều thí sinh tham gia nhưng cũng đồng thời có mặt bằng thí sinh tốt khi lần lượt đạt tỉ lệ vào đến vòng
+                Quý là 23.81% và 22.22%. Cả hai địa phương đều góp mặt trong trận Chung kết Năm sắp tới.
+            </p>
+        </div>
+
+        <div class="paragraph">
+            <h2>V. THAY ĐỔI THỨ TỰ VỀ ĐÍCH Ở OLYMPIA 21 CÓ HIỆU QUẢ NHƯ THẾ NÀO?</h2>
+            
+            <p>
+                Một trong những điểm nổi bật ở Olympia 21 chính là việc thay đổi thứ tự Về đích theo thứ tự điểm số ở tổng điểm 3 vòng thi
+                trước thay vì theo thứ tự đứng như truyền thống. Có nhiều ý kiến đưa ra về việc liệu thay đổi này có thật sự mang lại hiệu quả
+                hay không. Các biểu đồ bên dưới sẽ chỉ ra một số kết quả ghi nhận được từ sự thay đổi này.
+            </p>
+
+            <div class="row">
+                <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/vdlocation.jpg">
+                    <p class="img-cap">Trung bình điểm Về đích theo vị trí đứng Olympia 19 - 21</p>
+                </div>
+            </div>
+
+            <p>
+                Điểm chung có thể nhìn thấy được là ở Olympia 19 và Olympia 20, vị trí đứng thứ 4 có xu hướng ghi được nhiều điểm hơn
+                các vị trí còn lại. Liệu đây có thể vô tình là lợi thế có được do thứ tự sau và bắt đầu lượt thi sau nên sẽ có thêm
+                tiêu chí về thế trận để đưa ra được lựa chọn khéo léo và an toàn hơn (nhất là sự thay đổi luật O20 cho phép độ tuỳ biến
+                giá trị lượt thi cao hơn luật trước đó). Sự thay đổi có thể thấy mang đến cho Olympia 21 một sự "ngẫu nhiên" hơn về
+                phân bố điểm và không lệ thuộc nhiều vào vị trí đứng.
+            </p>
+
+            <p>
+                Vậy giữa thứ hạng sau Tăng tốc và thứ hạng chung cuộc (ở đây không xét kết quả của Câu hỏi phụ nếu có mà chỉ xét
+                tổng điểm thí sinh sau 4 vòng thi) thì có sự thay đổi gì ở Olympia 21 hay không?
+            </p>
+
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/TTVD.jpg">
+                    <p class="img-cap">Tỉ lệ thí sinh chiến thắng dựa trên thứ hạng sau Tăng tốc</p>
+                </div>
+            </div>
+
+            <p>
+                Tuy tỉ trọng vào tổng điểm của vòng thi Về đích thấp hơn ở Olympia 20 và Olympia 21 nhưng giá trị thực đóng góp vào kết quả trận 
+                có thể thấy rõ. Nếu ở Olympia 19 và Olympia 20, không có thí sinh nào đứng thứ 4 sau Tăng tốc có thể đạt số điểm cao nhất chung cuộc
+                thì ở Olympia 21 ghi nhận 2% số trận đấu có kết quả này. Nhìn chung, sự thay đổi thứ tự Về đích ở Olympia 21 theo thứ hạng điểm
+                sau Tăng tốc có hiệu quả nhất định và tăng cơ hội nhiều hơn cho các thí sinh xếp sau. Tỉ lệ thí sinh giữ được thứ hạng cao nhất chung cuộc
+                giảm đáng kể từ 87% ở Olympia 19 còn dưới 80% ở Olympia 20 và Olympia 21.
+            </p>
+
+            <div class="row">
+                <div class="col-md-6 offset-md-3 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/corr.jpg">
+                    <p class="img-cap">Tỉ lệ thí sinh chiến thắng dựa trên thứ hạng sau Tăng tốc</p>
+                </div>
+            </div>
+
+            <p>
+                Sử dụng phương pháp kiểm định Cramer'V để đo độ tương quan giữa <b>thứ hạng sau vòng thi Tăng tốc</b> và <b>thứ hạng chung cuộc</b>
+                cho thấy hiệu quả nhất định của việc thay đổi thứ tự Về đích trong luật Olympia 21. Tuy độ tương quan đều ở mức cao nhưng độ tương quan ở Olympia 21
+                với giá trị 44.44% chỉ bằng khoảng gần 3/4 của Olympia 19. Như vậy, cơ hội cho các thí sinh không đứng nhất sau Tăng tốc là cao hơn nhưng 
+                đồng thời cũng là một thử thách hơn với các thí sinh đứng nhất sau Tăng tốc trong việc giữ thứ hạng của mình.
+            </p>
+        </div>
+
+        <div class="paragraph">
+            <h2>VI. NHÌN VỀ PHẦN THỂ HIỆN CỦA 4 THÍ SINH CHUNG KẾT O21</h2>
+            <p class="font-italic">
+                Chú thích: Mục này chỉ đưa ra nhận định về thế trận chung dựa trên kết quả của các thí sinh chung kết
+                chứ không sử dụng kết quả này để dự đoán kết quả hay nhận định năng lực của bất cứ thí sinh nào.
+            </p>
+
+            <p>
+                Biểu đồ bên dưới thể hiện điểm trung bình theo từng vòng thi của 4 nhà leo núi Chung kết Olympia 21.
+            </p>
+
+            <div class="row">
+                <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/finalist21.jpg">
+                    <p class="img-cap">Điểm trung bình theo vòng thi 4 thí sinh Chung kết Olympia 21</p>
+                </div>
+            </div>
+
+            <p>
+                Dựa vào biểu đồ, có thể trông đợi vào một trận Chung kết Năm đầy kịch tính và hấp dẫn khi thế mạnh của
+                cả 4 thí sinh có sự dàn trải đều ở các vòng thi, khi thành tích ghi nhận tốt nhất ở một vòng thi được ghi nhận
+                ở một trong 4 thí sinh. 
+            </p>
+
+            <p class="font-italic">Tham khảo: Điểm trung bình theo vòng thi của 4 thí sinh Chung kết Olympia 20.</p>
+            
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                    <img alt="" src="images/finalist20.jpg">
+                    <p class="img-cap">Điểm trung bình theo vòng thi 4 thí sinh Chung kết Olympia 21</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="paragraph">
+            <h2>KẾT LUẬN CHUNG</h2>
+
+            <h5 class="font-weight-bold text-justify"> 
+                Với dữ liệu điểm thi thu thập được, Đường lên đỉnh Olympia năm thứ 21 đã cho thấy nhiều điểm khác biệt nhất định
+                so với các thế hệ thí sinh trước đó. Song hiệu quả nhất định của việc thay đổi thứ tự Về đích ở Olympia 21 cũng có
+                thể quan sát được qua một số số liệu tính toán được.
+            </h5>
+        </div>
+
+        <div class="paragraph">
+            <h2>PHỤ LỤC</h2>
+            <a href="index.html">Github</a>
+        </div>
+
+        <div class="end mb-4">
+            <a href="https://nhannc.site/" style="color: black;"><h5 class="font-italic text-right mt-4">Nguyễn Cao Nhân</h5></a>
+        </div>
+    </div>
+
+    <div class="image-box">
+        <img src="" alt="">
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
